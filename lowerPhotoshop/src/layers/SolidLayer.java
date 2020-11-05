@@ -11,7 +11,6 @@ public class SolidLayer extends Layer {
 		this.fillColor = fillColor;
 	}
 
-	@Override
 	public Color getPixel(int i, int j) {
 		return this.fillColor;
 	}
